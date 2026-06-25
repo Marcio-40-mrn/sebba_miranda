@@ -1,0 +1,40 @@
+:root {
+  /* ---- Paleta ---- */
+  --navy-900: #0a1f33;
+  --navy-800: #0f2a43;
+  --navy-700: #163a5c;
+  --navy-600: #1f4e7a;
+  --navy-100: #e7eef5;
+  --navy-50: #f3f7fb;
+
+  --gold-600: #b8860b;
+  --gold-500: #c9a227;
+  --gold-400: #d8b449;
+  --gold-100: #f7eecb;
+
+  --ink: #16202b;
+  --muted: #5b6b7b;
+  --line: #e2e8f0;
+  --bg: #ffffff;
+  --bg-alt: #f5f8fb;
+
+  --white: #ffffff;
+  --whatsapp: #25d366;
+
+  /* ---- Tipografia ---- */
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+
+  /* ---- Raio / sombra ---- */
+  --radius-sm: 8px;
+  --radius: 14px;
+  --radius-lg: 22px;
+  --shadow-sm: 0 1px 2px rgba(15, 42, 67, 0.06), 0 1px 3px rgba(15, 42, 67, 0.08);
+  --shadow: 0 10px 30px -12px rgba(15, 42, 67, 0.25);
+  --shadow-lg: 0 24px 60px -20px rgba(15, 42, 67, 0.35);
+
+  --container: 1160px;
+  --header-h: 76px;
+
+  --transition: 200ms ease;
+}

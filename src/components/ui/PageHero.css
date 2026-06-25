@@ -1,0 +1,42 @@
+.page-hero {
+  position: relative;
+  overflow: hidden;
+  background: var(--navy-800);
+  color: #fff;
+}
+.page-hero__bg {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+      800px 360px at 85% -20%,
+      rgba(201, 162, 39, 0.18),
+      transparent 60%
+    ),
+    linear-gradient(180deg, var(--navy-900), var(--navy-800));
+}
+.page-hero__inner {
+  position: relative;
+  padding-block: clamp(48px, 8vw, 88px);
+}
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 20px;
+}
+.breadcrumb a:hover {
+  color: var(--gold-400);
+}
+.page-hero__title {
+  color: #fff;
+  font-size: clamp(2rem, 4.5vw, 3rem);
+  max-width: 20ch;
+}
+.page-hero__subtitle {
+  margin-top: 16px;
+  max-width: 60ch;
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.8);
+}
