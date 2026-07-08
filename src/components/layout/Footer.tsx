@@ -12,7 +12,9 @@ export function Footer() {
     <footer className="footer">
       <div className="container footer__grid">
         <div className="footer__brand">
-          <span className="footer__logo">Sebba &amp; Miranda</span>
+          <span className="footer__logo">
+            <img src="/logo.jpg" alt={company.name} />
+          </span>
           <p>
             Sua solução jurídica ágil em todo o Brasil. Especializados em
             negociação de débitos extrajudiciais e judiciais e na recuperação de

@@ -31,11 +31,7 @@ export function Header() {
     <header className={`header ${scrolled ? "header--scrolled" : ""}`}>
       <div className="container header__inner">
         <Link to="/" className="brand" aria-label={company.name}>
-          <span className="brand__mark">S&amp;M</span>
-          <span className="brand__text">
-            <strong>Sebba &amp; Miranda</strong>
-            <small>Recuperação de Crédito</small>
-          </span>
+          <img src="/logo.jpg" alt={company.name} className="brand__logo" />
         </Link>
 
         <nav className={`nav ${open ? "nav--open" : ""}`} aria-label="Principal">

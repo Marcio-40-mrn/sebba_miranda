@@ -48,14 +48,15 @@ export const services: Service[] = [
   },
   {
     id: "representacao",
-    title: "Representação Judicial e Extrajudicial",
-    short: "Atuação completa na negociação de débitos extrajudiciais e judiciais.",
+    title: "Consultoria Administrativa: Serasa e Protesto de Título Extrajudicial",
+    short:
+      "Saiba qual o melhor modelo para formalizar seu título e aumentar as chances de recebimento dos débitos.",
     description:
-      "Representamos sua empresa tanto na esfera extrajudicial — com negociação e acordos — quanto na esfera judicial, conduzindo as ações necessárias para a recuperação dos valores devidos com agilidade e transparência.",
+      "Saiba qual o melhor modelo para formalizar seu título, avisos, notificações e dados atualizados, de modo a obter sucesso no registro e aumentar consideravelmente as chances de recebimento dos débitos. Estruture sua empresa, saiba como montar uma régua de cobrança interna eficiente.",
     highlights: [
-      "Negociação extrajudicial de débitos",
-      "Condução de ações judiciais",
-      "Atuação em todo o território nacional",
+      "Inclusão em Serasa e Protesto de Título",
+      "Avisos, notificações e dados sempre atualizados",
+      "Estruturação de régua de cobrança interna eficiente",
     ],
   },
 ];

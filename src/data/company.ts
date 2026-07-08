@@ -15,11 +15,11 @@ export const company = {
   whatsappMessage:
     "Olá! Vim pelo site e gostaria de saber mais sobre os serviços de recuperação de crédito.",
   address: {
-    // Endereço aproximado a partir do mapa do site atual (São Paulo/SP). Confirmar.
-    full: "São Paulo — SP",
+    full: "R. Amaral Gama, 380 - Santana - São Paulo - SP, CEP: 02018-001",
     mapsEmbed:
-      "https://www.google.com/maps?q=Av.+Paulista,+São+Paulo&output=embed",
-    mapsLink: "https://www.google.com/maps/@-23.4972519,-46.627591,15z",
+      "https://www.google.com/maps?q=R.+Amaral+Gama,+380,+Santana,+São+Paulo-SP,+02018-001&output=embed",
+    mapsLink:
+      "https://www.google.com/maps/search/?api=1&query=R.+Amaral+Gama,+380,+Santana,+São+Paulo-SP,+02018-001",
   },
   social: {
     instagram: "",
